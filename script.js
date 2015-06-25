@@ -5,11 +5,11 @@ $suivant = document.getElementById("suivant");
 // $carousel.style.borderColor = "#f00";
 var marge = 0;
 function suivant() {
-     marge -= 400;
-    if (marge == -400 * $carousel.children.length) {
+     marge -= 100;
+    if (marge == -100 * $carousel.children.length) {
     	marge = 0;
     }
-    $carousel.children[0].style.marginLeft=marge + "px";
+    $carousel.children[0].style.marginLeft=marge + "%";
 
 }
 

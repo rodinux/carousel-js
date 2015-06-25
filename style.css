@@ -1,10 +1,10 @@
 #carousel {
-    width: 400px;
-    height: 200px;
+    width: 60%;
     border: 1px #000 solid;
     padding: 0;
     white-space: nowrap;
     overflow : hidden;
+    margin: auto;
 }
 
 #carousel li {
@@ -15,13 +15,7 @@
     height: 100%;
     transition: all 1s ease;
 }
-
-/* impaire (1er et 3e) */
-#carousel li:nth-child(odd) {
-    background-color: #f88;
+img {
+    width: 100%;
 }
 
-/* pair (2e et 4e) */
-#carousel li:nth-child(even) {
-    background-color: #8f8;
-}
